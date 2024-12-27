@@ -1,0 +1,101 @@
+body, h1, p, ul, li, form, input, textarea, button, address {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fdfdfd;
+  }
+  
+ 
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+ 
+  .contact {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-family: 'Cursive', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 600px;
+    gap: 15px;
+  }
+  
+  form label {
+    font-size: 14px;
+
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #444;
+  }
+  
+
+  address {
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 16px;
+    color: #999;
+  }
+  
