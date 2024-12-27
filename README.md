@@ -1,26 +1,22 @@
-# contect-page
-# Contact Page for Calculator Project
+# Contact Page Project
 
-Welcome to the **Calculator Project**! This repository contains the code for a simple calculator built using **HTML**, **CSS**, and **JavaScript**. The following README will provide you with an overview of the project and ways to get in touch if you have any questions or suggestions.
+This is a simple Contact Page designed using **HTML**, **CSS**, and **JavaScript**. The page includes a contact form that allows users to submit their name, email, and message. It is intended to capture user inquiries or feedback.
 
-## About The Project
+## Features
+- **Form Fields**: 
+  - Name
+  - Email
+  - Message
+- **Submit Button**: Allows the user to submit the form.
+- **Form Validation**: Ensures that the name, email, and message fields are filled correctly before submission.
+- **Responsive Design**: The page is fully responsive, ensuring it works well on both desktop and mobile devices.
 
-This is a **Simple Calculator** app that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app is built with a user-friendly interface and runs in any modern browser.
+## Technologies Used
+- **HTML**: Used to structure the contact page and form elements.
+- **CSS**: Used to style the contact form and page layout, ensuring a clean and user-friendly interface.
+- **JavaScript**: Used for form validation to ensure the user has entered correct data (name, email, and message).
 
-### Features
-- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division.
-- **Supports Decimal Values**: Perform calculations with decimal numbers.
-- **Clean UI**: A minimalist, responsive design that works seamlessly across devices.
-
-### Technologies Used
-- **HTML**: Provides the structure for the calculator.
-- **CSS**: Used for styling the calculator and creating a visually appealing design.
-- **JavaScript**: Implements the functionality and logic of the calculator.
-
-## Installation Instructions
-
-To run the calculator locally, follow these steps:
-
-1. **Clone this repository**:
+## How to Use
+1. Clone or download the repository:
    ```bash
-   git clone https://github.com/eshmil-fatima0407/contact-page.git
+   git clone https://github.com/your-username/contact-page.git
